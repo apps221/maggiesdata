@@ -580,6 +580,9 @@ input[type="checkbox"] {
   width: 50px;
   height: 50px;
 }
+.project--title{
+  margin-top: 5px;
+}
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
   .hero--section--title {
@@ -763,11 +766,10 @@ input[type="checkbox"] {
   .nav__hamburger.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
-}
-@media (max-width: 768px) {
-  .hero--section--content--box {
+    .hero--section--content--box {
     text-align: center;
   }
 }
+
 
 /* Responsive Screens Ends*/
