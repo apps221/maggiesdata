@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import data from "../../data/index.json";
 
 export default function MyPortfolio() {
@@ -33,6 +34,7 @@ export default function MyPortfolio() {
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
+          
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
               <img class='portfolio--img' src={item.src} alt="Placeholder" />
@@ -42,7 +44,7 @@ export default function MyPortfolio() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <p className="text-sm portfolio--link">
+              <Link to={`/projects/${item.id}`}><p className="text-sm portfolio--link">
                 {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +61,7 @@ export default function MyPortfolio() {
                     stroke-linejoin="round"
                   />
                 </svg>
-              </p>
+              </p></Link>
             </div>
           </div>
         ))}
