@@ -270,7 +270,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 5px;
-  flex: 1 0 0;
+  flex: 1;
   border-radius: 10.6px;
   background: var(--bg-shade);
   min-height: 200px;
