@@ -15,25 +15,25 @@
     },
      {
       "id": "3",
-      "src": "./img/product-chain-1.png",
+      "src": "./img/powerbi.png",
       "title": "Power BI",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     },
      {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
+      "src": "./img/sql.jpeg",
       "title": "SQL",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     },
     {
       "id": "5",
-      "src": "./img/feather-pen-1.png",
+      "src": "./img/python.png",
       "title": "Python",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     },
      {
       "id": "6",
-      "src": "./img/feather-pen-1.png",
+      "src": "./img/rlogo.png",
       "title": "R",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     }
