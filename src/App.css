@@ -273,7 +273,8 @@ h2 {
   flex: 1;
   border-radius: 10.6px;
   background: var(--bg-shade);
-  min-height: 200px;
+  border-bottom: 4px solid transparent;
+  
 }
 .skills--section--card:hover {
   border-bottom: 4px solid var(--primary);
