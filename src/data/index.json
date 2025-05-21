@@ -45,7 +45,7 @@
       "title": "Ahuse",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "link": "View",
-      "pdf": "../module5.pdf"
+      "pdf": "./module5.pdf"
     },
     {
       "id": "2",
