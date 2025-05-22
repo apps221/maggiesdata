@@ -331,6 +331,11 @@ h2 {
 /* My Portfolio Starts */
 a {
   text-decoration: none;
+  color: white;
+}
+.project-container {
+
+  max-width: 1200px;
 }
 .portfolio--section {
   display: flex;

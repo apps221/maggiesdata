@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
@@ -14,7 +16,7 @@ export default function HeroSection() {
            
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <Link to='Contact' smooth={true}><button className="btn btn-primary">Get In Touch</button></Link>
       </div>
       <div className="hero--section--img">
         <img class='roundedcorners' src="./img/hong-7.jpg" alt="Hero Section" />

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import ProjectNav from './ProjectNav';
 import data from "../data";
-import { Document, Page, pdfjs } from 'react-pdf';
 
 
 const ProjectPage = () => {
@@ -18,12 +17,10 @@ const ProjectPage = () => {
           <div className="portfolio--container">
             <p className="section--title project--title">Project: {projectId}</p>
             <h2 className="skills--section--heading">{project.title}</h2>
-           <iframe id="inlineFrameExample" 
-    title="Inline Frame Example" 
-    width="300" 
-    height="200" 
-    src={project.pdf}> 
-</iframe> 
+          <p class='text-md project-container'>{project.description}</p>
+            <p className="section--title project--title">Here's a visual from the report:</p>
+          <img src={project.projectimg} />
+           <button className='btn btn-primary'><a className='text-white' href={project.pdf}>Link to Full Project</a></button>
           </div>
         </div>
       </section>
