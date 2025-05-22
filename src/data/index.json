@@ -96,24 +96,30 @@
     },
      {
       "id": "7",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/doordash.png",
       "title": "Uncovering the Secrets of Food Delivery Success",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "projectimg": "../img/doordashgraph.png",
+      "description": "In this project, I took my love for food delivery and turned it into a data-driven investigation into customer behavior and marketing effectiveness. What started as a curiosity about why people choose certain services quickly evolved into a deeper dive into who spends the most, which campaigns actually work, and what patterns emerge across income and age groups. Using real-world data, I found that while Campaign 6 drove the most sign-ups, it didn’t lead to higher spending—something I didn’t expect. I also discovered that people aged 36 to 65 are the biggest spenders, and income does influence delivery habits, though most customers fall within a surprisingly moderate spending range. This project gave me new perspective on an everyday service I already enjoy, showing how even our meal choices can tell meaningful stories through data.",
+      "link": "View",
+      "pdf": "../doordash.pdf"
     },
      {
       "id": "8",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/employee.png",
+      "title": "R You Ready? Cracking the Code of Employee Attrition",
+      "projectimg": "../img/rgraph.png",
+      "description": "In this project, I set out to explore the reasons why employees leave their jobs, using IBM’s HR data to test common assumptions—like the belief that age plays a major role in retention. What I found challenged that idea and gave me a deeper appreciation for how complex employee behavior really is. With a background in psychology, I was especially drawn to the human side of the data, and this analysis gave me the perfect opportunity to blend that interest with business insight. My findings revealed that while age has little correlation with income or attrition, younger employees do tend to leave more often, and total working years are actually a much stronger predictor of income than age. This project showed me how data can uncover hidden patterns that help organizations better understand and support their people.",
+      "link": "View",
+      "pdf": "../rwriteup.pdf"
     },
      {
       "id": "9",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/sleephealth.jpg",
+      "title": "Rest Assured: The SQL Side of Sleep Quality",
+       "projectimg": "../img/project9graph.png",
+      "description": "In this project, I explored the deep and often overlooked connection between our daily habits and the quality of our sleep—a topic that hit close to home as someone who struggles with rest myself. What began as a personal curiosity quickly turned into a meaningful analysis of how factors like weight, stress levels, and even occupation influence how well we sleep. Using real health and lifestyle data, I uncovered some surprising patterns—like the fact that engineers tend to sleep better regardless of their activity levels, and that lower stress consistently leads to better rest. This project gave me not just insights, but also a better understanding of my own sleep habits and how to improve them.",
+      "link": "View",
+       "pdf": "../project9.pdf"
     }
   ]
 }
