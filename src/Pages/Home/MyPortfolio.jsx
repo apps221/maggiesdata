@@ -37,8 +37,7 @@ export default function MyPortfolio() {
           
           <div key={index} className="portfolio--section--card">
         <div className="portfolio--section--img">
-            <Link to={`/projects/${item.id}`}>
-              <img class='portfolio--img' src={item.src} alt="Placeholder" /></Link>
+              <img class='portfolio--img' src={item.src} alt="Placeholder"/>
             </div>
             <div className="portfolio--section--card--content">
               <div>
