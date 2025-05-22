@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 export default function HeroSection() {
   return (
@@ -13,10 +13,16 @@ export default function HeroSection() {
           </h1>
           <p className="hero--section-description">
             I'm a data analyst with a background in <br />frontend development that loves to figure out <br></br>the <span class='spancolor'>WHY</span>.
-           
           </p>
         </div>
-        <Link to='Contact' smooth={true}><button className="btn btn-primary">Get In Touch</button></Link>
+        <Link
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        to="Contact"
+        className="btn btn-primary"
+> Get in Touch</Link>
       </div>
       <div className="hero--section--img">
         <img class='roundedcorners' src="./img/hong-7.jpg" alt="Hero Section" />

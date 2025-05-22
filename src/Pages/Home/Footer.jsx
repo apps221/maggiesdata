@@ -68,7 +68,7 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/maggiehongux/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"

@@ -1,5 +1,11 @@
 /* Global CSS */
-
+.projectnav {
+  display: flex;
+  gap: 10px;
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -53,6 +59,15 @@ p {
   border: 1px solid var(--primary);
 }
 .btn-outline-primary:hover {
+  color: var(--white);
+  background-color: var(--primary);
+}
+.btn-outline-primary-nav {
+  color: var(--primary);
+  background-color: var(--white);
+  border: 1px solid var(--primary);
+}
+.btn-outline-primary-nav:hover {
   color: var(--white);
   background-color: var(--primary);
 }
@@ -229,6 +244,7 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
+  margin-bottom: 10px;
 }
 .hero--section--img {
   display: flex;
@@ -276,12 +292,12 @@ h2 {
   border-bottom: 4px solid transparent;
   
 }
-.skills--section--card:hover {
+/*.skills--section--card:hover {
   border-bottom: 4px solid var(--primary);
 }
 .skills--section--card:hover .skills--section--description {
   color: var(--darkblue);
-}
+}*/
 .skills--section--img {
   display: flex;
   padding: 13.3px;
@@ -337,6 +353,7 @@ a {
 
   max-width: 1200px;
 }
+
 .portfolio--section {
   display: flex;
   padding: 112px 85px;
@@ -370,6 +387,7 @@ a {
 }
 .portfolio--section--img > img {
   width: 100%;
+  height: 300px;
 }
 .portfolio--section--card {
   display: flex;
@@ -381,6 +399,8 @@ a {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   max-width: calc(100%/4);
+  width: 100%;
+  height: 550px;
  
 }
 .portfolio--section--card--content {
@@ -625,6 +645,9 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 1200px) {
+  .project-container {
+    text-align: center;
+  }
   .btn-outline-primary {
     display: none;
   }
@@ -698,7 +721,14 @@ input[type="checkbox"] {
   .divider {
     margin: 20px;
   }
+.portfolio--section--card {
+  max-width: 700px;
+  width: 100%;
+  height: 700px;
 }
+
+}
+
 
 /* Hamburger menu  */
 

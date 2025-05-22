@@ -41,8 +41,8 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
+      "src": "./img/hospital.jpg",
+      "title": "Healthcare Insights: What Our Data Tells Us About Hospital Procedures and Patient Care",
       "projectimg": "../img/module5chart.png",
       "description":"This project explores the hidden narratives within healthcare data, inspired by a personal experience in the emergency room. Motivated by a strong interest in healthcare analytics, the project aims to uncover patterns in hospital stays, procedures, and medication use to improve patient care. Readers will gain insights into how data analysis can inform healthcare decisions and policies. Key findings include the prevalence of cardiovascular-related specialties, the correlation between procedure count and hospital stay duration, the non-impact of race on procedure frequency, and the widespread use of insulin across all age groups." ,
       "link": "View",
@@ -50,14 +50,14 @@
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
+      "src": "./img/basketball.jpg",
       "title": "App Dashboard",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "link": "View In Github"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/mining.jpg",
       "title": "Easy Rentn",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "link": "View In Github"

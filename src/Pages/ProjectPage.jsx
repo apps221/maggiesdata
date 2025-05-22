@@ -20,7 +20,7 @@ const ProjectPage = () => {
           <p class='text-md project-container'>{project.description}</p>
             <p className="section--title project--title">Here's a visual from the report:</p>
           <img src={project.projectimg} />
-           <button className='btn btn-primary'><a className='text-white' href={project.pdf}>Link to Full Project</a></button>
+          <a href={project.pdf} target='_blank'><button className='btn btn-primary'>Link to Full Project</button></a>
           </div>
         </div>
       </section>
