@@ -36,9 +36,10 @@ export default function MyPortfolio() {
         {data?.portfolio?.map((item, index) => (
           
           <div key={index} className="portfolio--section--card">
-          <Link to={`/projects/${item.id}`}><div className="portfolio--section--img">
-              <img class='portfolio--img' src={item.src} alt="Placeholder" />
-            </div></Link>
+        <div className="portfolio--section--img">
+            <Link to={`/projects/${item.id}`}>
+              <img class='portfolio--img' src={item.src} alt="Placeholder" /></Link>
+            </div>
             <div className="portfolio--section--card--content">
               <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>
