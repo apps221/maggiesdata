@@ -15,6 +15,7 @@ export default function HeroSection() {
             I'm a data analyst with a background in <br />frontend development that loves to figure out <br></br>the <span class='spancolor'>WHY</span>.
           </p>
         </div>
+        <div class='hero-btns'>
         <Link
         spy={true}
         smooth={true}
@@ -24,7 +25,7 @@ export default function HeroSection() {
         className="btn btn-primary"
 > Get in Touch</Link>
   <a class='resume-btn' href='./money.pdf' target='_blank'><button className='btn btn-primary'>Resume</button></a>
-
+</div>
       </div>
       <div className="hero--section--img">
         <img class='roundedcorners' src="./img/hong-7.jpg" alt="Hero Section" />

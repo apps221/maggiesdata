@@ -262,6 +262,10 @@ h2 {
 .spancolor {
   color: var(--primary);;
 }
+.resume-btns {
+  display: flex;
+  gap: 20px;
+}
 /* Hero Section Style Ends */
 
 /* Skills Section Style */
@@ -434,49 +438,6 @@ a {
 }
 /* Portfolio Ends */
 
-/* Testimonial */
-.testimonial--section {
-  display: flex;
-  padding: 112px 84.3px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 80px;
-  background-color: var(--bg-shade);
-}
-.sections--heading {
-  color: var(--heading-color);
-}
-.testimonial--section--card {
-  display: flex;
-  padding: 42.6px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 42.6px;
-  flex: 1 0 0;
-  border-radius: 8px;
-  border: 1.33px solid #006b6a;
-}
-.testimonial--section--card--reviews {
-  display: flex;
-  align-items: flex-start;
-  gap: 5.33px;
-}
-.testimonial--section--card--author--detail {
-  display: flex;
-  align-items: center;
-  gap: 21.3px;
-}
-.testimonial--author--name {
-  font-weight: 600;
-  color: var(--heading-color);
-}
-.testimonial--author--designation {
-  color: var(--darkblue);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-}
-/* Testimonial Ends */
 .contact--section {
   display: flex;
   padding: 150px 85px;
@@ -729,9 +690,13 @@ input[type="checkbox"] {
     margin: 20px;
   }
 .portfolio--section--card {
-  max-width: 700px;
-  width: 40%;
+ 
   height: 700px;
+}
+.hero-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 }
 
@@ -809,6 +774,10 @@ input[type="checkbox"] {
   }
     .hero--section--content--box {
     text-align: center;
+  }
+  .portfolio--section--card {
+    max-width: 500px;
+    width: 100%;
   }
 @media (max-width: 1200px) {
   .project--heading {
