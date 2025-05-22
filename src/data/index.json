@@ -51,54 +51,65 @@
     {
       "id": "2",
       "src": "./img/basketball.jpg",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Courtside Views: 2022 NBA Season Visualized in Tableau",
+      "projectimg": "../img/nbavisual.png",
+      "description": "This was an analysis I did of 2022 NBA Basketball Stats. I looked at the frequency of 3-pointers made per position for every team, key statistics like total points, assists and rebounds per player. One key finding was that James Harden made the most assists as a point guard with 1,334. A positive relationship was found between the number of assists and the total points earned. This means the more assists you get the more points you get. This is just some of the key findings, check out the full project below!",
+      "link": "View",
+      "pdf": "https://public.tableau.com/views/NBABasketballStats2022/NBABasketballStats?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+
     },
     {
       "id": "3",
       "src": "./img/mining.jpg",
-      "title": "Easy Rentn",
+      "title": "Mine & Refine: Python's Journey into Data Depths",
+      "projectimg": "../img/pythonvisual.png",
+      "description": "In this project, I share my journey of applying Python to a real-world data analysis project involving mining operations—a field I had no prior experience in. Driven by a desire to sharpen my skills, I explored a dataset spanning March to September 2017 to uncover what happened on June 1st. Despite not finding strong correlations between key variables, I discovered unexpected trends, like a midday dip in iron concentrate alongside a spike in silica, and a pH drop linked to changes in equipment levels. This project not only deepened my understanding of data analysis but also reinforced how much insight can be drawn from asking the right questions and diving into the details.",
+      "link": "View",
+      "pdf": "../PythonMining.pdf"
+    },
+     {
+      "id": "4",
+      "src": "./img/money.jpg",
+      "title": "Mapping Money: What World Bank Loans Reveal About Countries in Need",
+      "projectimg": "../img/bankingvisual.png",
+      "description": "In this project, I dive into a global dataset from the World Bank to uncover what loan data reveals about countries in need—and some that have paid back more than they owe. This project was my opportunity to sharpen my SQL skills while exploring real-world financial patterns. As I analyzed the data, I uncovered stories behind the numbers, from India’s massive loan count to Mozambique’s unexpected overpayments. What started as a technical challenge quickly became a deeper exploration of economic dynamics and global aid. Through this article, I hope to show how even complex financial data can tell compelling stories when viewed through the right lens.",
+      "link": "View",
+      "pdf": "../money.pdf"
+    },
+     {
+      "id": "5",
+      "src": "./img/supplychain.jpg",
+      "title": "Understanding Profit and Delivery Challenges in Supply Chains with PowerBI",
+      "projectimg": "../img/powerbivisual.png",
+      "description": "In this project, I set out to explore what really impacts supply chain efficiency, inspired by a documentary that highlighted how shipping delays can ripple through entire businesses. Using data from Sword Consulting Group and analyzing it with PowerBI, I discovered some surprising patterns—like the fact that while customers spend the most on computers and electronics, it’s actually fishing products that come with higher price tags despite lower purchase volume. Even more unexpected was that neither price nor product category seemed to influence shipping speed. This project not only deepened my understanding of data-driven supply chain analysis but also showed how valuable insights can emerge from everyday business data.",
+      "link": "View",
+       "pdf": "../powerbiproject.pdf"
+    },
+     {
+      "id": "6",
+      "src": "./img/school.jpg",
+      "title": "Behind the Bell: Insights into Massachusetts Schools",
+      "projectimg": "../img/module1.png",
+      "description": "In this project, I analyzed data from 1,861 schools across the Massachusetts Education System, covering nearly one million students, to uncover trends in graduation rates, college attendance, and academic performance. One of the most interesting findings was the positive correlation between average class size and college attendance—suggesting that slightly larger classes (particularly in the 10–20 range) may be linked to higher college-going rates. Surprisingly, there was no clear relationship between economic disadvantage and college attendance. I also looked at 4th grade math scores and found that more schools fell below the passing threshold than above it, raising important questions about what sets the higher-performing schools apart and how struggling schools can improve.",
+      "link": "View",
+       "pdf": "https://public.tableau.com/views/massachusettsedu/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+    },
+     {
+      "id": "7",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Uncovering the Secrets of Food Delivery Success",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "link": "View In Github"
     },
      {
-      "id": "4",
+      "id": "8",
       "src": "./img/placeholder-image-2.png",
       "title": "Easy Rentn",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "link": "View In Github"
     },
      {
-      "id": "4",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    },
-     {
-      "id": "4",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    },
-     {
-      "id": "4",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    },
-     {
-      "id": "4",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    },
-     {
-      "id": "4",
+      "id": "9",
       "src": "./img/placeholder-image-2.png",
       "title": "Easy Rentn",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
