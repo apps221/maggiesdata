@@ -11,9 +11,7 @@ export default function HeroSection() {
             <br />
             Analyst
           </h1>
-          <p className="hero--section-description">
-            I'm a data analyst with a background in <br />frontend development that loves to figure out <br></br>the <span class='spancolor'>WHY</span>.
-          </p>
+          <p className="hero--section-description">I'm a data analyst with a frontend development background who thrives on uncovering the <span class='spancolor'>WHY</span> behind the data. With skills in Excel, SQL, Tableau, Power BI, Python, and R, I turn complex data into clear, actionable insights.</p>
         </div>
         <div class='hero-btns'>
         <Link
