@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import ProjectNav from './ProjectNav';
 import data from "../data";
@@ -7,6 +7,9 @@ import data from "../data";
 const ProjectPage = () => {
   const { projectId } = useParams();
   const project = data.portfolio.find((proj) => proj.id === projectId);
+ useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [projectId])
 
 
   return (
