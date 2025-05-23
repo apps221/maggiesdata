@@ -727,6 +727,9 @@ input[type="checkbox"] {
     display: flex;
     z-index: 200;
   }
+  .skills--section--heading {
+    text-align: center;
+  }
   .navbar--items {
     display: flex;
   }
