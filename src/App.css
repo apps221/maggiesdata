@@ -690,8 +690,7 @@ input[type="checkbox"] {
     margin: 20px;
   }
 .portfolio--section--card {
- 
-  height: 700px;
+  height: 650px;
 }
 .hero-btns {
   display: flex;
