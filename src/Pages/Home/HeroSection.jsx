@@ -26,7 +26,7 @@ export default function HeroSection() {
 </div>
       </div>
       <div className="hero--section--img">
-        <img class='roundedcorners' src="./img/hong-7.jpg" alt="Hero Section" />
+        <img class='roundedcorners' src="./img/maggie-2.jpg" alt="Hero Section" />
       </div>
     </section>
   );
