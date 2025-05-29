@@ -22,7 +22,7 @@ export default function HeroSection() {
         to="Contact"
         className="btn btn-primary"
 > Get in Touch</Link>
-  <a class='resume-btn' href='../dataresume.pdf' target='_blank'><button className='btn btn-primary'>Resume</button></a>
+  <a class='resume-btn' href='../maggiehongdataresume.pdf' target='_blank'><button className='btn btn-primary'>Resume</button></a>
 </div>
       </div>
       <div className="hero--section--img">
