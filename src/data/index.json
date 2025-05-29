@@ -46,7 +46,7 @@
       "projectimg": "../img/module5chart.png",
       "description":"This project explores the hidden narratives within healthcare data, inspired by a personal experience in the emergency room. Motivated by a strong interest in healthcare analytics, the project aims to uncover patterns in hospital stays, procedures, and medication use to improve patient care. Readers will gain insights into how data analysis can inform healthcare decisions and policies. Key findings include the prevalence of cardiovascular-related specialties, the correlation between procedure count and hospital stay duration, the non-impact of race on procedure frequency, and the widespread use of insulin across all age groups." ,
       "link": "View",
-      "pdf": "../module5.pdf"
+      "pdf": "../healthcare.pdf"
     },
     {
       "id": "2",
@@ -119,7 +119,7 @@
        "projectimg": "../img/project9graph.png",
       "description": "In this project, I explored the deep and often overlooked connection between our daily habits and the quality of our sleep—a topic that hit close to home as someone who struggles with rest myself. What began as a personal curiosity quickly turned into a meaningful analysis of how factors like weight, stress levels, and even occupation influence how well we sleep. Using real health and lifestyle data, I uncovered some surprising patterns—like the fact that engineers tend to sleep better regardless of their activity levels, and that lower stress consistently leads to better rest. This project gave me not just insights, but also a better understanding of my own sleep habits and how to improve them.",
       "link": "View",
-       "pdf": "../project9.pdf"
+       "pdf": "../sleepquality.pdf"
     }
   ]
 }
