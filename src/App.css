@@ -724,6 +724,14 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 1200px) {
+  .footer--container { 
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .contact--section {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .nav__hamburger {
     display: flex;
     z-index: 200;
