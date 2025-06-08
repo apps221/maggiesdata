@@ -725,12 +725,12 @@ input[type="checkbox"] {
 
 @media screen and (max-width: 1200px) {
   .footer--container { 
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
   .contact--section {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
   .nav__hamburger {
     display: flex;
