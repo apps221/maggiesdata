@@ -791,7 +791,9 @@ input[type="checkbox"] {
   .portfolio--section--card, .portfolio--section--card--content {
     gap: 12px;
 }
-
+.btn {
+padding: 8px 16px;
+}
 }
 
 
