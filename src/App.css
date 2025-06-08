@@ -690,8 +690,9 @@ input[type="checkbox"] {
     margin: 20px;
   }
 .portfolio--section--card {
-  height: 650px;
+  height: 570px;
 }
+
 .hero-btns {
   display: flex;
   flex-direction: column;
@@ -781,10 +782,14 @@ input[type="checkbox"] {
     max-width: 600px;
     width: 100%;
   }
+
+}
 @media (max-width: 1200px) {
   .project--heading {
     text-align: center;
   }
+  .portfolio--section--card, .portfolio--section--card--content {
+    gap: 12px;
 }
 }
 
