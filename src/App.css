@@ -703,7 +703,9 @@ input[type="checkbox"] {
 .hero-btns {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+   max-width: 50%;
+  align-items: center;
 }
 }
 
@@ -816,9 +818,4 @@ padding: 8px 16px;
 }
 }
 
-.hero-btns {
-  max-width: 50%;
-  display: flex;
-  align-items: center;
-}
 /* Responsive Screens Ends*/
