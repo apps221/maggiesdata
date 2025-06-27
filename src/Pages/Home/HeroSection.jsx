@@ -21,7 +21,7 @@ export default function HeroSection() {
         duration={500}
         to="Contact"
         className="btn btn-primary"
-> Get in Touch</Link>
+> Contact</Link>
   <a class='resume-btn' href='../maggiehongdataresume.pdf' target='_blank'><button className='btn btn-primary'>Resume</button></a>
 </div>
       </div>
